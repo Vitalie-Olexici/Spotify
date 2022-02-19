@@ -1,0 +1,96 @@
+/*All page*/
+.all_page {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  z-index: 100%;
+}
+
+/*header*/
+.header {
+  background-color: black;
+  width: 100%;
+}
+
+/* Nav */
+.container_nav {
+  width: 100%;
+  height: 50%;
+}
+
+.header_inner {
+  display: flex;
+  align-content: right;
+  margin-top: auto;
+  margin-left: 80%;
+}
+
+.nav_link {
+  font-size: 14px;
+  width: auto;
+  height: 40px;
+  align-content: right;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s linear;
+  margin: 0 10px;
+}
+
+.nav_link :hover {
+  color: blue;
+}
+
+.foto {
+  width: auto;
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+/*Body*/
+
+.body_text {
+  display: flex;
+
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  margin-top: 180px;
+  margin-left: 40%;
+}
+
+.btn {
+  background-color: black;
+  border-radius: 10px;
+  margin-left: 33%;
+  width: 300px;
+  padding-left: 25px;
+  background: url(images/viev.jpg) no-repeat left;
+  background-size: 10px;
+  background-position: 3px 3px;
+}
+
+.bar {
+  display: flex;
+  align-content: center;
+}
+
+.foo {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_tob {
+  margin-top: 20px;
+  background-color: #443f3f;
+  display: inline;
+}
+.link_text_gen {
+  font-size: 10px;
+}
+.link_text {
+  text-decoration: none;
+}
